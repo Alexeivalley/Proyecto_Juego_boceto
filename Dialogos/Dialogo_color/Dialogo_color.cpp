@@ -9,6 +9,7 @@ int main() {
     cout << "Hola mundo, soy " << RED << "Alex" << RESET << ", un gusto" << endl << endl;
     
     cout << "Siempre usar /033m[0m (digitos del color y final m)" << endl << endl;
+
     cout << "Colores basicos de texto (foreground)" << endl;
 
     cout << "\033[30mNegro [30m]\033[0m" << endl;
@@ -21,6 +22,7 @@ int main() {
     cout << "\033[37mBlanco [37m]\033[0m" << endl << endl;
 
     cout << "Colores brillantes (high-intensity)" << endl;
+
     cout << "\033[90mGris oscuro [90m]\033[0m" << endl;
     cout << "\033[91mRojo brillante [91m]\033[0m" << endl;
     cout << "\033[92mVerde brillante [92m]\033[0m" << endl;
@@ -31,6 +33,7 @@ int main() {
     cout << "\033[97mBlanco brillante [97m]\033[0m" << endl << endl;
 
     cout << "Colores de fondo (background)" << endl;
+
     cout << "\033[40mFondo negro [40m]\033[0m" << endl;
     cout << "\033[41mFondo rojo [41m]\033[0m" << endl;
     cout << "\033[42mFondo verde [42m]\033[0m" << endl;
@@ -41,6 +44,7 @@ int main() {
     cout << "\033[47mFondo blanco [47m]\033[0m" << endl <<endl;
 
     cout << "Estilos de texto adicionales" << endl;
+    
     cout << "\033[1mNegrita [1m]\033[0m" << endl;
     cout << "\033[2mTenue [2m]\033[0m" << endl;
     cout << "\033[3mCursiva [3m]\033[0m" << endl;
